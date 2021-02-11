@@ -1,0 +1,18 @@
+#PS1 script => uitvoeren via Exchange console
+
+$allmailbox = Get-Mailbox '{AGENDA}'
+# $allmailbox = Get-Mailbox -Resultsize Unlimited indien voor iedereen van toepassing
+
+Foreach ($Mailbox in $allmailbox){{
+
+#Add-mailboxfolderpermission gebruiken als er nog geen rechten toegekend zijn voor die specifieke user
+#Set-mailboxfolderpermission gebruiken als de user al bepaalde rechten heeft en dat deze geupdate moeten worden
+#:\agenda gebruiken en ook calendar omdat sommige accounts dit in NL of EN hebben staan
+
+Add-mailboxfolderpermission -identity ($Mailbox.alias+':\agenda') -user {NAAM} -Accessrights {RECHTEN}
+Add-mailboxfolderpermission -identity ($Mailbox.alias+':\calendar') -user {NAAM} -Accessrights {RECHTEN}
+
+Set-mailboxfolderpermission -identity ($Mailbox.alias+':\agenda') -user {NAAM} -Accessrights {RECHTEN}
+Set-mailboxfolderpermission -identity ($Mailbox.alias+':\calendar') -user {NAAM} -Accessrights {RECHTEN}
+
+}}

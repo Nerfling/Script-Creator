@@ -1,0 +1,10 @@
+C:\Users\Bart\Desktop\Script Creator\Script Creator\bin\Release\Script Creator.exe.config
+C:\Users\Bart\Desktop\Script Creator\Script Creator\bin\Release\Script Creator.exe
+C:\Users\Bart\Desktop\Script Creator\Script Creator\bin\Release\Script Creator.pdb
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script_Creator.FRM_MAIN.resources
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script_Creator.Properties.Resources.resources
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script Creator.csproj.GenerateResource.cache
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script Creator.csproj.CoreCompileInputs.cache
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script Creator.exe
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script Creator.pdb
+C:\Users\Bart\Desktop\Script Creator\Script Creator\obj\Release\Script Creator.csprojAssemblyReference.cache
